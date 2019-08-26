@@ -69,7 +69,7 @@ public class Principal extends javax.swing.JFrame {
         Timer timer = new Timer();
         Busqueda busqueda = new Busqueda();
         busqueda.busqueda();
-        timer.schedule(busqueda, 0, 1000);
+        timer.schedule(busqueda, 0, 3000);
 
     }//GEN-LAST:event_funcionamientoActionPerformed
 
